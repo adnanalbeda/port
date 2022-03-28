@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e99c4f4.css",
-    "main.js": "/static/js/main.8fe4a7be.js",
+    "main.css": "/static/css/main.8ea62218.css",
+    "main.js": "/static/js/main.86bea057.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.6.1": "/static/media/fontawesome-webfont.81ab22b675a6b07438d4.svg",
     "static/media/970-875.png": "/static/media/970-875.8a9bdb700307e29856fd.png",
@@ -16,7 +16,6 @@
     "static/media/570-715_2.png": "/static/media/570-715_2.eb918074c73de4379629.png",
     "static/media/472-617_2.png": "/static/media/472-617_2.5f223d269b8ff52a3a56.png",
     "static/media/570-715.png": "/static/media/570-715.842f4c157a9a6b5275ec.png",
-    "static/media/ae_Sindibad.ttf": "/static/media/ae_Sindibad.ca6a59e5d55f056aa1a2.ttf",
     "static/media/970-875_2.png": "/static/media/970-875_2.9d14f0828cc351331adb.png",
     "static/media/472-617.png": "/static/media/472-617.cc31716784fba87005d6.png",
     "static/media/glyphicons-halflings-regular.svg": "/static/media/glyphicons-halflings-regular.9a17786234899efcc963.svg",
@@ -47,20 +46,18 @@
     "static/media/icomoon.ttf": "/static/media/icomoon.a2ac6e4f2e2229d60b49.ttf",
     "static/media/fontello.svg": "/static/media/fontello.6bfa53ad8f72d3506550.svg",
     "static/media/fontello.woff": "/static/media/fontello.70669c22bb3b8bdb8449.woff",
-    "static/media/logo.svg": "/static/media/logo.7cf89648f66ac78d172babbc9d0bb942.svg",
-    "static/media/logo-footer.svg": "/static/media/logo-footer.e3664847e90577f7b5fed23412f29556.svg",
-    "static/media/ico-14.svg": "/static/media/ico-14.f4d6a7389c23ead20d4ca1210f4426c3.svg",
-    "static/media/ico-13.svg": "/static/media/ico-13.224345741cde342a1b2d4854b2d1247a.svg",
+    "static/media/logo.svg": "/static/media/logo.a2207604914eecabfe1fe90f1f921a16.svg",
+    "static/media/logo-footer.svg": "/static/media/logo-footer.9b886ef6d38be842d48fe49ad74094c0.svg",
     "index.html": "/index.html",
     "static/media/ico-11.svg": "/static/media/ico-11.847b69d6264bef7efbf6c4bfb86fe313.svg",
-    "static/media/ico-10.svg": "/static/media/ico-10.66f112ccdb3f7089d401f6ea82c93a92.svg",
+    "static/media/ico-13.svg": "/static/media/ico-13.801d44f0f66275554558f2522a601859.svg",
     "static/media/ico-12.svg": "/static/media/ico-12.9d389897be2e7a8dd4727a020ddad2b0.svg",
-    "main.7e99c4f4.css.map": "/static/css/main.7e99c4f4.css.map",
-    "main.8fe4a7be.js.map": "/static/js/main.8fe4a7be.js.map",
+    "main.8ea62218.css.map": "/static/css/main.8ea62218.css.map",
+    "main.86bea057.js.map": "/static/js/main.86bea057.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e99c4f4.css",
-    "static/js/main.8fe4a7be.js"
+    "static/css/main.8ea62218.css",
+    "static/js/main.86bea057.js"
   ]
 }
