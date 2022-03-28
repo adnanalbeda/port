@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "ae_Sindibad";
+    src: url("./fonts/ae_Sindibad.ttf");
+}
+* {
+    font-family: "ae_Sindibad";
+    /* font-family: "ae_Sindibad", "Arabic Typesetting", "Sultan Medium",
+        "Traditional Arabic"; */
+    letter-spacing: -0.5px !important;
+    font-weight: 100;
+}
+body {
+    scroll-behavior: smooth;
+    direction: rtl;
+}
+.visual {
+    direction: ltr;
+}
+.visual .slick-track {
+    direction: rtl;
+}
+header .max-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+    }
+    #header .navbar-nav a {
+        font-size: 2em;
+        line-height: 1.6;
+        word-spacing: 2px;
+    }
+    #header .navbar-nav select {
+        font-size: 2em;
+        /* line-height: 1.6; */
+        word-spacing: 2px;
+    }
+}
+#header .navbar-nav {
+    display: flex;
+    padding-right: 0;
+}
+#header .navbar-nav a {
+    font-size: 1em;
+}
+.visual .slick-dots {
+    left: 40px;
+    right: 0;
+    text-align: left;
+}
+.info {
+    direction: ltr;
+}
+.info .txt-frame .text-box > li:first-child {
+    padding-right: 20px;
+}
+.info .more {
+    font-weight: 100;
+}
+.info .tild {
+    font-size: 3em;
+    top: 313px;
+    right: -100px;
+}
+.info.team .tild {
+    left: -70px;
+    top: 299px;
+    font-size: 4em;
+}
+.info.work .tild {
+    margin: 28px -159px 0 0;
+    right: 170px;
+    top: 290px;
+}
+.info.testimonial .tild {
+    right: 37px;
+    top: 371px;
+}
+.info.price .tild {
+    top: 280px;
+    right: auto;
+    left: 127px;
+    font-size: 4em;
+}
+.info.work .filter {
+    padding-right: 25px;
+}
+
+.txt-frame p {
+    text-align: right;
+}
+.txt-frame,
+.info .img-frame .box-inner,
+.info .txt-frame .img-holder .txt-box,
+.info .txt-frame .text-box p,
+.info .txt-frame .text-box li {
+    text-align: right;
+}
+.info .txt-frame .text-box .social-networks {
+    text-align: left;
+}
+.navbar-toggle {
+    float: left;
+}
+.visual .social-networks {
+    right: 0;
+}
+@media (max-width: 1599px) {
+    .work .filter {
+        padding-right: 15px;
+    }
+}
+
+.testimonial {
+    direction: rtl;
+}
+#back-top {
+    left: 20px;
+}
+
+.info.work .txt-frame .filter {
+    direction: rtl;
+}
+.f1 .holder,
+.f1 .footer-txt .text {
+    float: right;
+}
+.f1 .frame {
+    float: left;
+}
+
+@media (max-width: 1919px) {
+    .info .tild {
+        font-size: 3em;
+        right: -100px;
+        top: 320px;
+    }
+    .info.team .tild {
+        font-size: 4.5em;
+        left: -110px;
+        top: 320px;
+    }
+    .info.work .tild {
+        margin: 28px -165px 0 0;
+        top: 360px;
+        right: 150px;
+    }
+    .info.work .filter {
+        padding-right: 25px;
+    }
+    .info.testimonial .tild {
+        font-size: 3em;
+        left: -45px;
+        top: 333px;
+    }
+    .info.price .tild {
+        font-size: 4em;
+        left: 175px;
+        top: 353px;
+    }
+}
+@media (max-width: 1599px) {
+    .info .tild {
+        font-size: 2em;
+    }
+    .info.work .tild {
+        right: 230px;
+        top: 45%;
+    }
+    .info.team .tild {
+        font-size: 3.5em;
+        left: -105px;
+    }
+    .info.testimonial .tild {
+        font-size: 2.3em;
+        left: -105px;
+        top: 333px;
+    }
+    .info.price .tild {
+        font-size: 4em;
+        left: 75px;
+        top: 353px;
+    }
+}
+
+@media (max-width: 1279px) {
+    .info .tild {
+        font-size: 2.2em;
+        top: 190px;
+        left: 0px;
+    }
+    .info.work .tild {
+        right: 230px;
+        top: 45%;
+    }
+    .info.team .tild {
+        font-size: 3em;
+        left: -75px;
+        top: 200px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .info .tild {
+        font-size: 2em;
+        font-weight: 100;
+    }
+    .info.work .tild {
+        right: 230px;
+        top: 45%;
+        font-size: 2.6em;
+        line-height: 1.6;
+    }
+    .info.team .tild {
+        font-size: 2.5em;
+        left: -105px;
+    }
+    .info.testimonial .tild {
+        font-size: 1.5em;
+        left: -105px;
+        top: 333px;
+        line-height: 1.6;
+    }
+    .info.price .tild {
+        font-size: 3em;
+        left: 75px;
+        top: 353px;
+    }
+}

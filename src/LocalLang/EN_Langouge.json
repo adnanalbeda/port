@@ -1,0 +1,253 @@
+{
+    "header": {
+        "link-01": "Home",
+        "link-02": "About Us",
+        "link-03": "Our Team",
+        "link-04": "Our Work",
+        "link-05": "Pricing",
+        "link-06": "Our Service"
+    },
+    "visual": {
+        "txt-01": "WELCOME TO",
+        "light-01": "MAGIC",
+        "add-01": "photography",
+        "add-02-01": "",
+        "txt-02": "WE LOVE TO",
+        "light-02": "UNIQUE",
+        "add-02": "creative",
+        "add-02-02": "PASSION",
+        "txt-03": "WE LOVE TO",
+        "light-03": "UNIQUE",
+        "add-03": "creative",
+        "add-02-03": "PASSION"
+    },
+
+    "info": {
+        "tild": "ABOUT US",
+        "num": "01",
+        "Name": "Louis Frank",
+        "Description": "Co-Founder at Magic",
+        "title": "About Us",
+        "AboutUs": "We are a team of professional photographers in Dubai who have a passion for photography and love what they do. Dubai is a huge versatile city where we can see endless high-rise buildings, breathtaking architecture, fabulous deserts and snow-white beaches. With such beautiful surroundings and our expertise combined, it’s easy to turn your brightest occasions into a magical work of art. We're here to capture your special moments before they disappear, and transform them into forever memories. In a world where images are literally everywhere, we put care, attention and love into yours and help you tell your stories with photography. Our mission is simple: we want to enable everyone to have access to great photographers in the easiest, most affordable way. We guarantee you an enjoyable, stress-free and seamless experience. Let's create magic together!"
+    },
+    "infoTeam": {
+        "team-01-Name": "Kawhi Leonard",
+        "team-01-Job": "Creative Director",
+        "team-01-Description": "We tend to think of Steam as tools for content developers and tools for producers. We're just always thinking.",
+        "team-02-Name": "Sammy Filton",
+        "team-02-Job": "Stylelist",
+        "team-02-Description": "We tend to think of Steam as tools for content developers and tools for producers. We're just always thinking.",
+        "team-03-Name": "Sandra Jackson",
+        "team-03-Job": "art derector",
+        "team-03-Description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanm, totam rem aperiam, eaque.",
+        "team-01-opener": "Kawhi Leonard",
+        "designation-01": "Creative Director",
+        "team-02-opener": "Sammy Filton",
+        "designation-02": "Stylelist",
+        "team-03-opener": "Sandra Jackson",
+        "designation-03": "art derector",
+        "tild": "OUR TEAMS",
+        "num": "02",
+        "more": "MAGIC"
+    },
+    "infoWork": {
+        "tild": "OUR WORKS",
+        "num": "03",
+        "filter-01": "All",
+        "filter-02": "Photography",
+        "filter-03": "Branding",
+        "filter-04": "Portrait",
+        "filter-05": "Family",
+        "filter-06": "Event",
+        "more": "MAGIC",
+        "Placeholder-title-01": "Amber Bottle",
+        "BrandingIdentity-01": "Branding Identity",
+        "Placeholder-title-02": "Amber Bottle 2",
+        "BrandingIdentity-02": "Branding Identity 2",
+        "Placeholder-title-03": "Amber Bottle 3",
+        "BrandingIdentity-03": "Branding Identity 3",
+        "Placeholder-title-04": "Amber Bottle 4",
+        "BrandingIdentity-04": "Branding Identity 4",
+        "Placeholder-title-05": "Amber Bottle 5",
+        "BrandingIdentity-05": "Branding Identity 5",
+        "Placeholder-title-06": "Amber Bottle 6",
+        "BrandingIdentity-06": "Branding Identity 6"
+    },
+    "infoTestimonial": {
+        "tild": "TESTIMONIALS",
+        "num": "04",
+        "more": "MAGIC",
+        "blockquote-01": "“I am so happy because I found this Magic Photography, and it just made my life easier. Thanks so much for sharing”",
+        "UserBlock-01": "Kawhi Leonard",
+        "designation-01": "Creative Director",
+        "blockquote-02": "“I am so happy because I found this Magic Photography, and it just made my life easier. Thanks so much for sharing”",
+        "UserBlock-02": "Umair Rafi",
+        "designation-02": "Creative Developer",
+        "blockquote-03": "“I am so happy because I found this Magic Photography, and it just made my life easier. Thanks so much for sharing”",
+        "UserBlock-03": "Leo Alpha",
+        "designation-03": "Ui/UX Director"
+    },
+    "infoPrice": {
+        "tild": "PRICING",
+        "num": "05",
+        "more": "MAGIC",
+        "Icon_Dollar": "$",
+        "Icon_Dirham": "AED",
+        "SelectPlan": "SELECT PLAN",
+        "Package_1": {
+            "Plan": "BASIC",
+            "Dollar_Prices": "140",
+            "Dirham_Prices": "140",
+            "Server_One": " 1hr shooting",
+            "Server_Two": "1 location (2x clothes change).",
+            "Server_Three": "All pictures will be sent to your email the same day (around 100-150 pictures) + 10x edited pictures of choice.",
+            "Server_Four": "We can also do small videos on your phone for Instagram stories.",
+            "Server_Five": "We will pick you up from hotel."
+        },
+        "Package_2": {
+            "Plan": "POPUlAR",
+            "Dollar_Prices": "180",
+            "Dirham_Prices": "660",
+            "Server_One": "2hr shooting",
+            "Server_Two": "2 locations (2x clothes change).",
+            "Server_Three": "All pictures will be sent to your email the same day (around 200 - 250 pictures) + 15x edited pictures.",
+            "Server_Four": "We can also do small videos on your phone for Instagram stories.",
+            "Server_Sivan": "We will pick you up from hotel."
+        },
+        "Package_3": {
+            "Plan": "primier2",
+            "Dollar_Prices": "275",
+            "Dirham_Prices": "1,000",
+            "Server_One": "3hr shooting",
+            "Server_Two": "2 locations (2x clothes change).",
+            "Server_Three": "All pictures will be sent to your email the same day (around 200 - 250 pictures) + 15x edited pictures.",
+            "Server_Four": "We can also do small videos on your phone for Instagram stories.",
+            "Server_Sivan": "We will pick you up from hotel."
+        },
+        "Package_4": {
+            "Plan": "primier4",
+            "Dollar_Prices": "300",
+            "Dirham_Prices": "1.100",
+            "Server_One": "1hr shooting in the desert with camels (2x clothes change).",
+            "Server_Two": "We will pick you up from hotel and drop you back off."
+        }
+    },
+
+    "ServiceInfo": {
+        "tild": "OUR SERVICES",
+        "num": "06",
+        "more": "order services",
+        "Service-01": {
+            "icon": "icons-ico-01",
+            "heading": "HANDICRAFTS",
+            "description": "Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo eros."
+        },
+        "Service-02": {
+            "icon": "icons-ico-02",
+            "heading": "BRANDING DESIGN",
+            "description": "Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo eros."
+        },
+        "Service-03": {
+            "icon": "icons-ico-03",
+            "heading": "DIGITAL GRAPHICS",
+            "description": "Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo eros."
+        },
+        "Service-04": {
+            "icon": "icons-ico-04",
+            "heading": "MARKETING",
+            "description": "Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo eros."
+        },
+        "Service-05": {
+            "icon": "icons-ico-05",
+            "heading": "COFFEE &amp; RESTAURANT",
+            "description": "Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo eros."
+        },
+        "Service-06": {
+            "icon": "icons-ico-06",
+            "heading": "FURNITURE DESIGN",
+            "description": "Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo eros."
+        },
+        "Service-07": {
+            "icon": "icons-ico-07",
+            "heading": "awesome support",
+            "description": "Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo eros."
+        },
+        "Service-08": {
+            "icon": "icons-ico-08",
+            "heading": "easy to customize",
+            "description": "Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo eros."
+        },
+        "Service-09": {
+            "icon": "icons-ico-09",
+            "heading": "PROTECT SOLUTIONS",
+            "description": "Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis arcu posuere condimentum. Nullam justo eros."
+        }
+    },
+    "ClientArea": {
+        "Icon-01": {
+            "Title": "COFFEE CUPS",
+            "Count": "268"
+        },
+        "Icon-02": {
+            "Title": "HAPPY CLIENTS",
+            "Count": "346"
+        },
+        "Icon-03": {
+            "Title": "PROJECTS",
+            "Count": "100"
+        },
+        "Icon-04": {
+            "Title": "WORKING DAYS",
+            "Count": "492"
+        },
+        "Icon-05": {
+            "Title": "TEAM MEMBERS",
+            "Count": "90"
+        }
+    },
+
+    "Footer": {
+        "Icon": "&",
+        "Text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollitid est laborum. Sed ut perspiciatis unde qui omnis iste natus error sit voluptatem.",
+        "Line-01": {
+            "Sort": "Location : ",
+            "Content": "No 40 Baria Sreet 133/2 NewYork City,",
+            "NewLine": "NY, United States"
+        },
+        "Line-02": {
+            "Sort": "Email : ",
+            "Email": "magic@mail.com"
+        },
+        "Line-03": {
+            "Sort": "Our Number",
+            "PhoneNumber": "(00) 123 456 789"
+        },
+        "titleForm": "We will love to hear from you!",
+        "placeholderName": "Name",
+        "placeholderEmail": "Email",
+        "placeholderTextarea": "Your Comment",
+        "ButtonFormValue": "SEND MESSAGES",
+        "DoneMessage": {
+            "Thanks": "Thank you!",
+            "Message": "We have received your message."
+        },
+        "CopyRight": {
+            "Copy": "Copyright",
+            "Link": "Magic photographers",
+            "AllRights": "rights reserved."
+        }
+    },
+
+    "Contact": {
+        "title": "Contact us by email!",
+        "description": "At vero eos et accusamus et iusto odios un dignissimos ducimus qui blan ditiis prasixer esentium voluptatum.",
+        "textPlaceholder": "Full Name",
+        "phonePlaceholder": "Phone number",
+        "Placeholder-01": "Which photostatting want customers",
+        "Placeholder-02": "How many people ?",
+        "Placeholder-03": "How many hours want ?",
+        "Placeholder-04": "Date",
+        "Placeholder-05": "Time",
+        "Placeholder-06": "Message details"
+    }
+}
