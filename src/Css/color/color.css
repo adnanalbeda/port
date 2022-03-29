@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #c5a47e;
+    --seconder-color: #252525;
+}
+*::selection {
+    background: var(--primary-color);
+    color: var(--seconder-color);
+}
+body {
+    color: var(--seconder-color);
+}
+#back-top,
+#header .navbar-nav a:hover,
+#header .navbar-nav li.active > a,
+#header .navbar-nav li.open > a,
+#header .navbar-nav li:hover > a,
+#style-changer .changer-opener,
+.article-holder .more:hover,
+.btn-area .more:hover,
+.comment ol .box .head h4 a:hover,
+.comment ol .box .reply:hover,
+.comment-form input[type="submit"]:hover,
+.contact input[type="submit"]:hover,
+.error-sec .footer-socials a:hover,
+.error-sec .txt .title i,
+.f1 .contact a:hover,
+.f1 .testimonial a,
+.f1 .wpcf7-form input[type="submit"]:hover,
+.f2 .copyright a:hover,
+.f2 .sub-nav a:hover,
+.info .filter li a:hover,
+.info .filter li.active a,
+.info .img-area .caption .icons a:hover,
+.info .more:hover,
+.info .pricing .plan:hover,
+.info .services li h3 i,
+.info .txt-frame .text-box h2 a:hover,
+.info .txt-frame h3 a:hover,
+.info .txt-holder .continue:hover,
+.logo .icon,
+.logo-footer .icon,
+.map .icon-location,
+.masonry-holder .links a:hover,
+.masonry-holder .links li.active a,
+.masonry-holder .masonry .caption .icons a:hover,
+.masonry-holder .more:hover,
+.post .box h3 a:hover,
+.post .btn-holder .more:hover,
+.post .image-box .slick-next:hover:after,
+.post .image-box .slick-prev:hover:after,
+.post .text-area h2,
+.promo h2,
+.sidebar .categories a:hover,
+.sidebar .recent h3 a:hover,
+.sidebar .tags a:hover,
+.social-networks li a:hover,
+.visual .slideshow .slide .icon,
+.yellow {
+    color: var(--primary-color);
+}
+#header .navbar-nav a:after,
+#header .navbar-nav a:before,
+.blockquote blockquote cite:after,
+.comment h3:after,
+.comment-form h3:after,
+.error-sec .btn-back:hover,
+.info .more:hover:after,
+.info .more:hover:before,
+.loader > div,
+.masonry-holder h2:after,
+.promo h2:after,
+.promo h2:before,
+.sidebar .widget h2:after,
+.visual .slick-dots .slick-active button,
+.visual .slick-dots button:hover {
+    background: var(--primary-color);
+}
+#header .navbar-nav .drop,
+#header .navbar-nav .dropdown-menu,
+.btn-area .more:hover,
+.comment ol .box .reply:hover,
+.comment-form input[type="submit"]:hover,
+.comming-timer,
+.contact input[type="submit"]:hover,
+.error-sec .btn-back:hover,
+.f1 .wpcf7-form input[type="submit"]:hover,
+.info .img-area .caption .icons a:hover,
+.info .pricing .plan:hover,
+.loader > div,
+.masonry-holder .masonry .caption .icons a:hover,
+.masonry-holder .more:hover,
+.post .image-box .slick-next:hover,
+.post .image-box .slick-prev:hover,
+.sidebar .tags a:hover,
+.social-networks li a:hover,
+.visual .slideshow .box,
+.visual .slideshow .pagination a:hover,
+.visual .slideshow .pagination li.active a,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+textarea:focus {
+    border-color: var(--primary-color);
+}

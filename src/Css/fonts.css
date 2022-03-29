@@ -1,0 +1,10 @@
+*,
+*::after,
+*::before {
+    letter-spacing: 2px;
+}
+body {
+    font-family: "Cormorant Upright", sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}

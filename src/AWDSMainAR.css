@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+@font-face {
+    font-family: "ae_Sindibad";
+    src: url("./fonts/ae_Sindibad.ttf");
+}
+#ar * {
+    font-family: "ae_Sindibad";
+    /* font-family: "ae_Sindibad", "Arabic Typesetting", "Sultan Medium",
+        "Traditional Arabic"; */
+    letter-spacing: -0.5px !important;
+    font-weight: 100;
+}
+#ar {
+    scroll-behavior: smooth;
+    direction: rtl;
+}
+#ar .customFont li::first-letter {
+}
+#ar .customFont,
+#ar .customFont li,
+#ar .customFont li::first-letter {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 600;
+}
+
+#ar .visual {
+    direction: ltr;
+}
+#ar .visual .slick-track {
+    direction: rtl;
+}
+#ar header .max-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    #ar .navbar-nav {
+        display: flex;
+        flex-direction: column;
+    }
+    #ar #header .navbar-nav a {
+        font-size: 2em;
+        line-height: 1.6;
+        word-spacing: 2px;
+    }
+    #ar #header .navbar-nav select {
+        font-size: 2em;
+        /* line-height: 1.6; */
+        word-spacing: 2px;
+    }
+}
+#ar #header .navbar-nav {
+    display: flex;
+    padding-right: 0;
+}
+#ar #header .navbar-nav a {
+    font-size: 1em;
+}
+#ar .visual .slick-dots {
+    left: 40px;
+    right: 0;
+    text-align: left;
+}
+#ar .info {
+    direction: ltr;
+}
+#ar .info .txt-frame .text-box > li:first-child {
+    padding-right: 20px;
+}
+#ar .info .more {
+    font-weight: 100;
+}
+#ar .info .tild {
+    font-size: 3em;
+    top: 313px;
+    right: -100px;
+}
+#ar .info.team .tild {
+    left: -70px;
+    top: 299px;
+    font-size: 4em;
+}
+#ar .info.work .tild {
+    margin: 28px -159px 0 0;
+    right: 170px;
+    top: 290px;
+}
+#ar .info.testimonial .tild {
+    right: 37px;
+    top: 371px;
+}
+#ar .info.price .tild {
+    top: 280px;
+    right: auto;
+    left: 127px;
+    font-size: 4em;
+}
+#ar .info.service-area .tild {
+    font-size: 10em;
+    top: 340px;
+    right: 100px;
+}
+#ar .info.work .filter {
+    padding-right: 25px;
+}
+
+#ar .txt-frame p {
+    text-align: right;
+}
+#ar .txt-frame,
+#ar .info .img-frame .box-inner,
+#ar .info .txt-frame .img-holder .txt-box,
+#ar .info .txt-frame .text-box p,
+#ar .info .txt-frame .text-box li {
+    text-align: right;
+}
+#ar .info .txt-frame .text-box .social-networks {
+    text-align: left;
+}
+#ar .navbar-toggle {
+    float: left;
+}
+#ar .visual .social-networks {
+    right: 0;
+}
+@media (max-width: 1599px) {
+    #ar .work .filter {
+        padding-right: 15px;
+    }
+}
+
+#ar .testimonial {
+    direction: rtl;
+}
+#ar #back-top {
+    left: 20px;
+}
+
+#ar .info.work .txt-frame .filter {
+    direction: rtl;
+}
+#ar .f1 .holder,
+#ar .f1 .footer-txt .text {
+    float: right;
+}
+#ar .f1 .frame {
+    float: left;
+}
+
+@media (max-width: 1919px) {
+    #ar .info .tild {
+        font-size: 3em;
+        right: -100px;
+        top: 320px;
+    }
+    #ar .info.team .tild {
+        font-size: 4.5em;
+        left: -110px;
+        top: 320px;
+    }
+    #ar .info.work .tild {
+        margin: 28px -165px 0 0;
+        top: 360px;
+        right: 150px;
+    }
+    #ar .info.work .filter {
+        padding-right: 25px;
+    }
+    #ar .info.testimonial .tild {
+        font-size: 3em;
+        left: -45px;
+        top: 333px;
+    }
+    #ar .info.price .tild {
+        font-size: 4em;
+        left: 175px;
+        top: 353px;
+    }
+}
+@media (max-width: 1599px) {
+    #ar .info .tild {
+        font-size: 2em;
+    }
+    #ar .info.work .tild {
+        right: 230px;
+        top: 45%;
+    }
+    #ar .info.team .tild {
+        font-size: 3.5em;
+        left: -105px;
+    }
+    #ar .info.testimonial .tild {
+        font-size: 2.3em;
+        left: -105px;
+        top: 333px;
+    }
+    #ar .info.price .tild {
+        font-size: 4em;
+        left: 75px;
+        top: 353px;
+    }
+}
+
+@media (max-width: 1279px) {
+    #ar .info .tild {
+        font-size: 2.2em;
+        top: 190px;
+        left: 0px;
+    }
+    #ar .info.work .tild {
+        right: 230px;
+        top: 45%;
+    }
+    #ar .info.team .tild {
+        font-size: 3em;
+        left: -75px;
+        top: 200px;
+    }
+}
+
+@media (max-width: 1023px) {
+    #ar .info .tild {
+        font-size: 2em;
+        font-weight: 100;
+    }
+    #ar .info.work .tild {
+        right: 230px;
+        top: 45%;
+        font-size: 2.6em;
+        line-height: 1.6;
+    }
+    #ar .info.team .tild {
+        font-size: 2.5em;
+        left: -105px;
+    }
+    #ar .info.testimonial .tild {
+        font-size: 1.5em;
+        left: -105px;
+        top: 333px;
+        line-height: 1.6;
+    }
+    #ar .info.price .tild {
+        font-size: 3em;
+        left: 75px;
+        top: 353px;
+    }
+    #ar .info.service-area .tild {
+        font-size: 3.5em;
+        left: 75px;
+        top: 353px;
+    }
+}
