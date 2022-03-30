@@ -23,7 +23,7 @@ const resources = {
 i18n.use(initReactI18next) // passes i18n down to react-i18next
     .init({
         resources,
-        lng: "ar",
+        lng: window.localStorage.getItem("Display_Lang") ?? "ar",
         interpolation: {
             escapeValue: false, // react already safes from xss
         },

@@ -1,0 +1,95 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"emmet.showSuggestionsAsSnippets": true,
+		"workbench.colorTheme": "GitHub Dark High Contrast",
+		"workbench.iconTheme": "vscode-great-icons",
+		"workbench.preferredDarkColorTheme": "Community Material Theme Ocean",
+		"workbench.preferredHighContrastColorTheme": "Community Material Theme Palenight High Contrast",
+		"workbench.productIconTheme": "material-product-icons",
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"html.format.templating": true,
+		"reactSnippets.settings.prettierEnabled": true,
+		"prettier.printWidth": 100,
+		"prettier.useTabs": true,
+		"editor.guides.bracketPairs": true,
+		"editor.bracketPairColorization.enabled": true,
+		"typescript.format.insertSpaceAfterTypeAssertion": true,
+		"editor.formatOnSave": true,
+		"editor.linkedEditing": true,
+		"auto-rename-tag.activationOnLanguage": [
+			"xml",
+			"javascript",
+			"typescript",
+			"javascriptreact",
+			"typescriptreact",
+		],
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch Edge",
+				"request": "launch",
+				"type": "pwa-msedge",
+				"url": "http://localhost:3000",
+				"webRoot": "${workspaceFolder}"
+			},
+			{
+				"name": "Launch Chrome",
+				"request": "launch",
+				"type": "pwa-chrome",
+				"server":{
+					"program": "npm start"
+				},
+				"url": "http://localhost:3000",
+				"webRoot": "${workspaceFolder}"
+			},
+			{
+				"type": "firefox",
+				"request": "launch",
+				"reAttach": true,
+				"name": "Launch Firefox localhost",
+				"url": "http://localhost:3000",
+				"webRoot": "${workspaceFolder}"
+			},
+			{
+				"type": "firefox",
+				"request": "attach",
+				"name": "Firefox Attach",
+				"url": "http://localhost:3000",
+				"webRoot": "${workspaceFolder}"
+			},
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"formulahendry.auto-rename-tag",
+			"streetsidesoftware.code-spell-checker",
+			"steoates.autoimport",
+			"dsznajder.es7-react-js-snippets",
+			"dbaeumer.vscode-eslint",
+			"riazxrazor.html-to-jsx",
+			"wix.vscode-import-cost",
+			"xabikos.javascriptsnippets",
+			"dbaeumer.jshint",
+			"christian-kohler.npm-intellisense",
+			"eg2.vscode-npm-script",
+			"christian-kohler.path-intellisense",
+			"xabikos.reactsnippets",
+			"jasonnutter.search-node-modules",
+			"burkeholland.simple-react-snippets",
+			"chakrounanas.turbo-console-log",
+			"ms-vscode.vscode-typescript-tslint-plugin",
+			"infeng.vscode-react-typescript",
+			"planbcoding.vscode-react-refactor",
+			"jawandarajbir.react-vscode-extension-pack",
+			"firefox-devtools.vscode-firefox-debug",
+			"Orta.vscode-jest"
+		],
+	}
+}

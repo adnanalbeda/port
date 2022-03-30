@@ -1,20 +1,27 @@
 // import React, { useState } from "react";
 import { changeLanguage } from "i18next";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./../../AWDSMainAR.css";
 export default function Header(props) {
     const [t, i18n] = useTranslation();
+    const [lang, setLang] = useState();
+    useEffect(() => {
+        if (!window.localStorage.getItem("Display_Lang"))
+            window.localStorage.setItem("Display_Lang", "AR");
+        setLang(window.localStorage.getItem("Display_Lang"));
+    }, []);
     window.onload = () => {
         let val = document.getElementById("SelectLang");
-        if (localStorage.getItem("lang") === "AR") {
+        if (lang === "AR") {
             document.body.setAttribute("id", "ar");
             i18n.changeLanguage("ar");
             val.value = "AR";
-        } else if (localStorage.getItem("lang") === "EN") {
+        } else if (lang === "EN") {
             document.body.removeAttribute("id");
             val.value = "EN";
             i18n.changeLanguage("en");
-        } else if (localStorage.getItem("lang") === "RU") {
+        } else if (lang === "RU") {
             document.body.removeAttribute("id");
             document.body.setAttribute("id", "ru");
             val.value = "RU";
